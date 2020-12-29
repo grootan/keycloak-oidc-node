@@ -1,0 +1,26 @@
+{
+  "name": "keycloak-oidc-node",
+  "version": "1.0.0",
+  "private": false,
+  "repository": "https://github.com/grootan/keycloak-oidc-node.git",
+  "author": "achyuth.thumbalam@grootan.com",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.2",
+    "fs": "0.0.1-security",
+    "keycloak-connect": "^9.0.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "keycloak",
+    "oidc",
+    "oidc-node",
+    "openid",
+    "openid connect",
+    "nodejs implicit flow",
+    "node keycloak"
+  ]
+}
