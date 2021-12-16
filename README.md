@@ -11,10 +11,11 @@ This repository includes an express example app that displays the numerous Autho
 3. You can customize the details relevant to the OIDC in the ```./keycloak.json``` file
 4. Make sure that you replace the keycloak-tenant-id with your TenantID and keycloak-client-id with your ClientID.
 5. Modify {hostname} to align your keycloak domain.
-6. RUN `npm install`
-7. After installation of NPM packages, RUN `npm run start`
-8. By default this node app will run in port `3000`
-9. Finally, go to the browser and start `http://localhost:3000`
+6. Replace `client-secret-for-confidential-client` with client secret (Applicable only if the client is Confidential).
+7. RUN `npm install`
+8. After installation of NPM packages, RUN `npm run start`
+9. By default this node app will run in port `3000`
+10. Finally, go to the browser and start `http://localhost:3000`
 
 ## Approach to work with the implicit flow
 
